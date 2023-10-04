@@ -14,4 +14,8 @@ data class DataItem(val viewType: Int) {
         this.content3List = content3List
         this.content5List = content5List
     }
+
+    constructor(viewType: Int, content4: Content4) : this(viewType) {
+        this.content4List = content4
+    }
 }

@@ -1,6 +1,6 @@
 package id.citra.recycleview7.model
 
-data class DataItemType{
+class DataItemType{
     companion object {
         const val CONTENT1 = 0
         const val CONTENT2 = 1
